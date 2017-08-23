@@ -48,7 +48,7 @@ esac
 
 FUNC_CLEAN_DTB()
 {
-	if ! [[ -d $RDIR/arch/$ARCH/boot/dts ]] ; then
+	if ! [ -d $RDIR/arch/$ARCH/boot/dts ] ; then
 		echo "no directory : "$RDIR/arch/$ARCH/boot/dts""
 	else
 		echo "rm files in : "$RDIR/arch/$ARCH/boot/dts/*.dtb""
@@ -139,11 +139,11 @@ FUNC_BUILD_KERNEL()
 
 	FUNC_CLEAN_DTB
 
-	make -j1 ARCH=$ARCH \
+	make -j$BUILD_JOB_NUMBER ARCH=$ARCH \
 			CROSS_COMPILE=$BUILD_CROSS_COMPILE \
 			$KERNEL_DEFCONFIG || exit -1
 
-	make -j1 ARCH=$ARCH \
+	make -j$BUILD_JOB_NUMBER ARCH=$ARCH \
 			CROSS_COMPILE=$BUILD_CROSS_COMPILE || exit -1
 
 	FUNC_BUILD_DTIMAGE_TARGET

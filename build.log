@@ -5,10 +5,10 @@ START : FUNC_BUILD_KERNEL
 
 build common config=exynos8895-dream2lte_eur_open_defconfig 
 build model config=dream2lte 
-rm files in : /home/kernel_s8/KingKernel/arch/arm64/boot/dts/*.dtb
-rm: cannot remove '/home/kernel_s8/KingKernel/arch/arm64/boot/dts/*.dtb': No such file or directory
-rm: cannot remove '/home/kernel_s8/KingKernel/arch/arm64/boot/boot.img-dtb': No such file or directory
-rm: cannot remove '/home/kernel_s8/KingKernel/arch/arm64/boot/boot.img-zImage': No such file or directory
+rm files in : /root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/*.dtb
+rm: cannot remove '/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/*.dtb': No such file or directory
+rm: cannot remove '/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/boot.img-dtb': No such file or directory
+rm: cannot remove '/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/boot.img-zImage': No such file or directory
 boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
 #
 # configuration written to .config
@@ -19,8 +19,8 @@ INFO: CC is ../Toolchain/aarch64-cortex_a53-linux-gnueabi-6.3.0/bin/aarch64-cort
   CHK     include/config/kernel.release
   CHK     include/generated/uapi/linux/version.h
   CHK     include/generated/utsrelease.h
-  CHK     include/generated/bounds.h
   CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
   CHK     include/generated/asm-offsets.h
   CALL    scripts/checksyscalls.sh
   CHK     include/generated/compile.h
@@ -41,11 +41,22 @@ INFO: CC is ../Toolchain/aarch64-cortex_a53-linux-gnueabi-6.3.0/bin/aarch64-cort
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-framemgr.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-groupmgr.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-resourcemgr.o
+drivers/media/platform/exynos/fimc-is2/fimc-is-resourcemgr.c: In function 'fimc_is_resource_open':
+drivers/media/platform/exynos/fimc-is2/fimc-is-resourcemgr.c:823:32: warning: array subscript is above array bounds [-Warray-bounds]
+   resource->pdev = core->sensor[RESOURCE_TYPE_SENSOR4].pdev;
+                    ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+drivers/media/platform/exynos/fimc-is2/fimc-is-resourcemgr.c:826:12: warning: array subscript is above array bounds [-Warray-bounds]
+   result = &core->sensor[RESOURCE_TYPE_SENSOR5];
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+drivers/media/platform/exynos/fimc-is2/fimc-is-resourcemgr.c:827:32: warning: array subscript is above array bounds [-Warray-bounds]
+   resource->pdev = core->sensor[RESOURCE_TYPE_SENSOR5].pdev;
+                    ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-devicemgr.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-sensor.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-3aa.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-3aac.o
+drivers/net/wireless/bcmdhd4361/Makefile:293: Not found Android version file. Set None
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-3aap.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-isp.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-video-ispc.o
@@ -64,93 +75,78 @@ INFO: CC is ../Toolchain/aarch64-cortex_a53-linux-gnueabi-6.3.0/bin/aarch64-cort
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-subdev-ctrl.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-flite.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-ischain.o
+  CC      drivers/sensorhub/brcm/hrm_adpd143.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-time.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-dvfs.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-dt.o
+  CC      drivers/sensorhub/brcm/hrmsensor.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-clk-gate.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-binary.o
+  LD      drivers/sensorhub/brcm/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-interface-wrap.o
+  LD      drivers/sensorhub/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/fimc-is-device-sensor_v2.o
-  LD      drivers/media/platform/exynos/fimc-is2/fimc-is.o
   CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-control.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-3aa.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-isp.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-tpu.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-vra.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-dm.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-mcscaler-v2.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-common.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-vra.o
-  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-mcscaler-v3_0.o
-  LD      drivers/media/platform/exynos/fimc-is2/hardware/api/built-in.o
-  LD      drivers/media/platform/exynos/fimc-is2/hardware/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-ischain.o
   CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-library.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-3aa.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-isp.o
   CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-vra.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-tpu.o
   CC      drivers/media/platform/exynos/fimc-is2/interface/fimc-is-interface-ddk.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-vra.o
   LD      drivers/media/platform/exynos/fimc-is2/interface/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-dm.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/setup-fimc-is-sensor.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/fimc-is-hw-mcscaler-v2.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/setup-fimc-is-module.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-common.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-hw-pwr.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-vra.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-hw-chain.o
+  CC      drivers/media/platform/exynos/fimc-is2/hardware/api/fimc-is-hw-api-mcscaler-v3_0.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-hw-dvfs.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-3aa.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-3ac.o
+  LD      drivers/media/platform/exynos/fimc-is2/hardware/api/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/hardware/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-3ap.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-isp.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-ixc.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-ixp.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-dis.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-dxc.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-mcs.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-mcsp.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-vra.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_bns.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc0.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc1.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc2.o
-  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc3.o
-  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/built-in.o
-  LD      drivers/media/platform/exynos/fimc-is2/ischain/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/csi2/fimc-is-hw-csi-v5_0.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-isp.o
   LD      drivers/media/platform/exynos/fimc-is2/sensor/csi2/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/flite/fimc-is-hw-flite-v4_20_0.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-ixc.o
   LD      drivers/media/platform/exynos/fimc-is2/sensor/flite/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-interface-sensor.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-ixp.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-dis.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-interface-actuator.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-dxc.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-mcs.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-control-sensor.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-mcsp.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-control-actuator.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-vra.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/fimc-is-device-sensor-peri.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_bns.o
   LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/actuator/fimc-is-actuator-ak7371.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc0.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc1.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/actuator/fimc-is-actuator-ak7372.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc2.o
   LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/actuator/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/fimc-is-subdev-sensor_vc3.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/fimc-is-v5_2_0/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/ischain/built-in.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-3h1.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-vender.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-3m3.o
+  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sec-define.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-2l1.o
   CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-2l2.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-imx320.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-imx333.o
-  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/built-in.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/fimc-is-flash-s2mpb02.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/fimc-is-flash-gpio.o
-  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/built-in.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-base.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3h1.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3h1-c3.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3m3.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-2l1.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-2l2.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx320.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx320-c3.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx333.o
-  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-5e6.o
-  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/built-in.o
-  LD      drivers/media/platform/exynos/fimc-is2/sensor/built-in.o
-  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-vender.o
-  CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sec-define.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sysfs.o
 drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sysfs.c: In function 'camera_ois_selftest_show':
 drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sysfs.c:1767:32: warning: format '%lld' expects argument of type 'long long int', but argument 4 has type 'long int' [-Wformat=]
@@ -202,60 +198,74 @@ drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sysfs.c:1854:39: warni
 drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-sysfs.c:1854:46: warning: format '%lld' expects argument of type 'long long int', but argument 6 has type 'long int' [-Wformat=]
     return sprintf(buf, "%ld.%03ld,-%lld.%03lld\n", raw_data_x /1000, raw_data_x % 1000,
                                               ^
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-imx320.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-from.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-pmic.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/fimc-is-cis-imx333.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-companion_c3.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/cis/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/fimc-is-flash-s2mpb02.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-ois_common.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/fimc-is-flash-gpio.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/flash/built-in.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-base.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-af.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-eeprom.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3h1.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/fimc-is-device-ois_s4.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3h1-c3.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-3m3.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/fimc-is-interface-preprocessor.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-2l1.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/fimc-is-module-preprocessor.o
   CC      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/fimc-is-preprocessor-c3.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-2l2.o
   LD      drivers/media/platform/exynos/fimc-is2/vendor/mcd/preprocessor/built-in.o
   LD      drivers/media/platform/exynos/fimc-is2/vendor/mcd/built-in.o
   LD      drivers/media/platform/exynos/fimc-is2/vendor/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/fimc-is.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx320.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx320-c3.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-imx333.o
+  CC      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/fimc-is-device-module-5e6.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/module_framework/modules/built-in.o
+  LD      drivers/media/platform/exynos/fimc-is2/sensor/built-in.o
   LD      drivers/media/platform/exynos/fimc-is2/built-in.o
   LD      drivers/media/platform/exynos/built-in.o
+  CC      drivers/video/fbdev/exynos/dpu/dpp_drv.o
   LD      drivers/media/platform/built-in.o
   LD      drivers/media/built-in.o
-drivers/net/wireless/bcmdhd4361/Makefile:293: Not found Android version file. Set None
-  CC      drivers/sensorhub/brcm/hrm_adpd143.o
-  CC      drivers/sensorhub/brcm/hrmsensor.o
-  LD      drivers/sensorhub/brcm/built-in.o
-  LD      drivers/sensorhub/built-in.o
-  CC      drivers/video/fbdev/exynos/dpu/dpp_drv.o
-  LD      drivers/video/fbdev/exynos/dpu/dpp.o
   CC      drivers/video/fbdev/exynos/dpu/dsim_drv.o
-  LD      drivers/video/fbdev/exynos/dpu/dsim.o
+  CC      drivers/video/fbdev/exynos/panel/panel.o
   CC      drivers/video/fbdev/exynos/dpu/displayport_drv.o
+  CC      drivers/video/fbdev/exynos/panel/panel_bl.o
+  CC      drivers/video/fbdev/exynos/panel/panel_drv.o
   CC      drivers/video/fbdev/exynos/dpu/displayport_hdcp13.o
-  LD      drivers/video/fbdev/exynos/dpu/displayport.o
   CC      drivers/video/fbdev/exynos/dpu/dsim_reg.o
+  CC      drivers/video/fbdev/exynos/panel/s6e3ha6/s6e3ha6.o
   CC      drivers/video/fbdev/exynos/dpu/dpp_reg.o
+  CC      drivers/video/fbdev/exynos/panel/tuning.o
+  CC      drivers/video/fbdev/exynos/panel/mdnie.o
   CC      drivers/video/fbdev/exynos/dpu/decon_reg.o
+  CC      drivers/video/fbdev/exynos/panel/sysfs.o
   CC      drivers/video/fbdev/exynos/dpu/decon_core.o
+  CC      drivers/video/fbdev/exynos/panel/copr.o
+  CC      drivers/video/fbdev/exynos/panel/active_clock.o
+  CC      drivers/video/fbdev/exynos/panel/panel_poc.o
   CC      drivers/video/fbdev/exynos/dpu/decon_dsi.o
+  LD      drivers/video/fbdev/exynos/panel/built-in.o
   CC      drivers/video/fbdev/exynos/dpu/decon_displayport.o
   CC      drivers/video/fbdev/exynos/dpu/decon_wb.o
   CC      drivers/video/fbdev/exynos/dpu/helper.o
   CC      drivers/video/fbdev/exynos/dpu/win_update.o
   CC      drivers/video/fbdev/exynos/dpu/bts.o
-  LD      drivers/video/fbdev/exynos/dpu/decon.o
   CC      drivers/video/fbdev/exynos/dpu/event_log.o
   CC      drivers/video/fbdev/exynos/dpu/dsu_update.o
+  LD      drivers/video/fbdev/exynos/dpu/dpp.o
+  LD      drivers/video/fbdev/exynos/dpu/dsim.o
+  LD      drivers/video/fbdev/exynos/dpu/displayport.o
+  LD      drivers/video/fbdev/exynos/dpu/decon.o
   LD      drivers/video/fbdev/exynos/dpu/built-in.o
-  CC      drivers/video/fbdev/exynos/panel/panel.o
-  CC      drivers/video/fbdev/exynos/panel/panel_bl.o
-  CC      drivers/video/fbdev/exynos/panel/panel_drv.o
-  CC      drivers/video/fbdev/exynos/panel/s6e3ha6/s6e3ha6.o
-  CC      drivers/video/fbdev/exynos/panel/tuning.o
-  CC      drivers/video/fbdev/exynos/panel/mdnie.o
-  CC      drivers/video/fbdev/exynos/panel/sysfs.o
-  CC      drivers/video/fbdev/exynos/panel/copr.o
-  CC      drivers/video/fbdev/exynos/panel/active_clock.o
-  CC      drivers/video/fbdev/exynos/panel/panel_poc.o
-  LD      drivers/video/fbdev/exynos/panel/built-in.o
   LD      drivers/video/fbdev/exynos/built-in.o
   LD      drivers/video/fbdev/built-in.o
   LD      drivers/video/built-in.o
@@ -271,10 +281,9 @@ drivers/net/wireless/bcmdhd4361/Makefile:293: Not found Android version file. Se
   KSYM    .tmp_kallsyms1.o
   KSYM    .tmp_kallsyms2.o
   LD      vmlinux
-  SORTEX  vmlinux
   SYSMAP  System.map
   FIPS with KALSR : Generating hmac of crypto and fmp, then update vmlinux... 
->>>>> Time used for generated all hashes is 9 sec
+>>>>> Time used for generated all hashes is 10 sec
   OBJCOPY arch/arm64/boot/Image
   GZIP    arch/arm64/boot/Image.gz
 Processing dts files...
@@ -344,7 +353,7 @@ ramdisk_offset = 01000000
 second_offset = 00f00000
 tags_offset = 00000100
 os_version = 7.0.0
-os_patch_level = 2017-07
+os_patch_level = 2017-08
 hash = sha1
 dtb = boot.img-dtb
  
@@ -358,4 +367,4 @@ Using type: SEAndroid
  
 Done!
 rm: cannot remove 'dream2lte-eur.img': No such file or directory
-Total compile time was 208 seconds
+Total compile time was 194 seconds
