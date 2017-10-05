@@ -27,10 +27,10 @@ ui_print " - Installing KingKernel"
 
 if grep -q G955 BLmodel; then
 	cat dream2lte-eur.img > /dev/block/platform/11120000.ufs/by-name/BOOT
-	ui_print " - Flashing S8 kernel"
+	ui_print " - Flashing S8 Plus kernel"
 else if grep -q G950 BLmodel; then
 	cat dreamlte-eur.img > /dev/block/platform/11120000.ufs/by-name/BOOT
-	ui_print " - Flashing S8 Plus kernel"
+	ui_print " - Flashing S8 kernel"
 else
 	echo "Not a supported model. Dont flash any kernel!"
 	ui_print " - Model not support, no kernel flashed"
