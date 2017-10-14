@@ -1,13 +1,13 @@
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts"
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts"
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts"
 /dts-v1/;
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-rmem.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-rmem.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-rmem.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-rmem.dtsi"
 /memreserve/ 0xE0000000 0x1900000;
 
 / {
@@ -80,21 +80,21 @@
   };
  };
 };
-# 13 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 1
-# 16 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi"
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/include/dt-bindings/clock/exynos8895.h" 1
-# 17 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/include/dt-bindings/ufs/ufs.h" 1
-# 18 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/include/dt-bindings/soc/samsung/exynos8895.h" 1
-# 19 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/include/dt-bindings/sysmmu/sysmmu.h" 1
-# 20 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/include/dt-bindings/thermal/thermal.h" 1
-# 21 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-pinctrl.dtsi" 1
-# 15 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-pinctrl.dtsi"
+# 13 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 1
+# 16 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/include/dt-bindings/clock/exynos8895.h" 1
+# 17 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/include/dt-bindings/ufs/ufs.h" 1
+# 18 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/include/dt-bindings/soc/samsung/exynos8895.h" 1
+# 19 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/include/dt-bindings/sysmmu/sysmmu.h" 1
+# 20 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/include/dt-bindings/thermal/thermal.h" 1
+# 21 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-pinctrl.dtsi" 1
+# 15 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-pinctrl.dtsi"
 / {
 
  pinctrl@164B0000 {
@@ -1842,11 +1842,11 @@
   };
  };
 };
-# 22 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-pm-domains.dtsi" 1
-# 15 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-pm-domains.dtsi"
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/include/dt-bindings/power/exynos-power.h" 1
-# 16 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-pm-domains.dtsi" 2
+# 22 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-pm-domains.dtsi" 1
+# 15 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-pm-domains.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/include/dt-bindings/power/exynos-power.h" 1
+# 16 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-pm-domains.dtsi" 2
 
 / {
  pd_abox: pd-abox@16484000 {
@@ -2048,12 +2048,12 @@
   samsung,power-domain = <&pd_vts>;
  };
 };
-# 23 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-ess.dtsi" 1
-# 16 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-ess.dtsi"
+# 23 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-ess.dtsi" 1
+# 16 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-ess.dtsi"
 / {
  exynos-snapshot {
-# 34 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-ess.dtsi"
+# 34 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-ess.dtsi"
   compatible = "samsung,exynos-snapshot";
   dump-info@0x0 {
    sfr-dump-list = "sfr-dump-cmu-peris", "sfr-dump-cmu-abox", "sfr-dump-dram";
@@ -2083,7 +2083,7 @@
   };
  };
 };
-# 24 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 24 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
 
 / {
  compatible = "samsung,armv8", "samsung,exynos8895";
@@ -2533,6 +2533,7 @@
    cal-id = <(0x0B040003)>;
    dm-type = <0>;
 
+   max-freq = <1794000>;
    min-freq = <455000>;
 
 
@@ -2578,6 +2579,7 @@
    cal-id = <(0x0B040002)>;
    dm-type = <1>;
 
+   max-freq = <2574000>;
    min-freq = <741000>;
 
 
@@ -5903,7 +5905,7 @@
 
   iommus = <&sysmmu_score0>;
  };
-# 3853 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi"
+# 3855 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi"
  iommu-domain_iva_score {
   compatible = "samsung,exynos-iommu-bus";
   #dma-address-cells = <1>;
@@ -6522,10 +6524,10 @@
   hotplug_enable = <1>;
   hotplug_in_threshold = <91>;
   hotplug_out_threshold = <96>;
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/include/dt-bindings/thermal/thermal_exynos.h" 1
-# 13 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/include/dt-bindings/thermal/thermal_exynos.h" 1
+# 13 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 2
 
 #thermal-sensor-cells = <0>;
 samsung,tmu_gain = <0>;
@@ -6538,7 +6540,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4472 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4474 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  tmuctrl_1: APOLLO@10080000 {
@@ -6549,8 +6551,8 @@ samsung,tmu_sensor_type = <0x0>;
   id = <1>;
   sensors = <2>;
   sensing_mode = "max";
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
-# 14 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
+# 14 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
 #thermal-sensor-cells = <0>;
 samsung,tmu_gain = <0>;
 samsung,tmu_reference_voltage = <0>;
@@ -6562,7 +6564,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4483 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4485 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  tmuctrl_2: GPU@10084000 {
@@ -6582,8 +6584,8 @@ samsung,tmu_sensor_type = <0x0>;
           0 3 338000
           0 4 260000
           0 5 (~1)>;
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
-# 14 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
+# 14 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
 #thermal-sensor-cells = <0>;
 samsung,tmu_gain = <0>;
 samsung,tmu_reference_voltage = <0>;
@@ -6595,7 +6597,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4503 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4505 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  tmuctrl_3: ISP@10084000 {
@@ -6606,8 +6608,8 @@ samsung,tmu_sensor_type = <0x0>;
   id = <3>;
   sensors = <6>;
   sensing_mode = "max";
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
-# 14 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi" 1
+# 14 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-tmu-sensor-conf.dtsi"
 #thermal-sensor-cells = <0>;
 samsung,tmu_gain = <0>;
 samsung,tmu_reference_voltage = <0>;
@@ -6619,7 +6621,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4514 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4516 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  thermal-zones {
@@ -7063,9 +7065,9 @@ samsung,tmu_sensor_type = <0x0>;
   interrupts = <0 79 0>, <0 78 0>;
  };
 };
-# 14 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-display-lcd.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-display-lcd.dtsi"
+# 14 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-display-lcd.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-display-lcd.dtsi"
 / {
  emul_display: emul_display {
   mode = <0>;
@@ -7271,9 +7273,9 @@ samsung,tmu_sensor_type = <0x0>;
   };
  };
 };
-# 15 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/modem-ss355ap-pdata.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/modem-ss355ap-pdata.dtsi"
+# 15 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/modem-ss355ap-pdata.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/modem-ss355ap-pdata.dtsi"
 / {
 
  mif_pdata {
@@ -7658,9 +7660,9 @@ samsung,tmu_sensor_type = <0x0>;
   mcu,irq_affinity_mask = <3>;
  };
 };
-# 16 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte-mmiotrace.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte-mmiotrace.dtsi"
+# 16 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte-mmiotrace.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte-mmiotrace.dtsi"
 / {
  sec_mmiotrace {
   status = "ok";
@@ -8122,7 +8124,7 @@ samsung,tmu_sensor_type = <0x0>;
   };
  };
 };
-# 17 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
+# 17 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi" 2
 
 / {
  model = "Samsung UNIVERSAL8895 board based on EXYNOS8895";
@@ -10053,7 +10055,7 @@ samsung,tmu_sensor_type = <0x0>;
    };
   };
   fimc_is_dvfs {
-# 1983 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
+# 1983 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
    table0 {
     desc = "dvfs table v0.0 for 12M/8M";
 
@@ -10984,7 +10986,7 @@ samsung,tmu_sensor_type = <0x0>;
 
   };
  };
-# 2923 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
+# 2923 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
  fimc_is_sensor0: fimc_is_sensor@12CA0000 {
   scenario = <0>;
   id = <0>;
@@ -11233,7 +11235,7 @@ samsung,tmu_sensor_type = <0x0>;
  argos {
   compatible = "samsung,argos";
   #address-cells = <1>;
-# 3191 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
+# 3191 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
   boot_device@1 {
    net_boost,label="IPC";
    net_boost,node="rmnet0 rmnet1 rmnet2 rmnet3 rmnet4 rmnet5 rmnet6 rmnet7 umts_dm0";
@@ -11244,7 +11246,7 @@ samsung,tmu_sensor_type = <0x0>;
     200 12610000 0 1690000 0 1794000 0 0 1 0
     >;
   };
-# 3210 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
+# 3210 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_common.dtsi"
   boot_device@2 {
    net_boost,label="UFS";
    net_boost,node="";
@@ -11373,9 +11375,9 @@ samsung,tmu_sensor_type = <0x0>;
   };
  };
 };
-# 14 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/battery_data_dream2lte_common.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/battery_data_dream2lte_common.dtsi"
+# 14 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/battery_data_dream2lte_common.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/battery_data_dream2lte_common.dtsi"
 / {
  pinctrl@164B0000 {
   wpc_int: wpc-int {
@@ -11793,7 +11795,7 @@ samsung,tmu_sensor_type = <0x0>;
    0 1000 0
    >;
  };
-# 464 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/battery_data_dream2lte_common.dtsi"
+# 464 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/battery_data_dream2lte_common.dtsi"
  cable-info {
      default_input_current = <1800>;
      default_charging_current = <2100>;
@@ -11857,9 +11859,9 @@ samsung,tmu_sensor_type = <0x0>;
     };
  };
 };
-# 15 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_motor_drv2624.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_motor_drv2624.dtsi"
+# 15 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_motor_drv2624.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_motor_drv2624.dtsi"
 / {
  haptic_drv2624 {
   status = "okay";
@@ -11874,9 +11876,9 @@ samsung,tmu_sensor_type = <0x0>;
   haptic_drv2624,reg2 = <0x82>;
  };
 };
-# 16 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_svcled.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_svcled.dtsi"
+# 16 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_svcled.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_svcled.dtsi"
 / {
  rgb {
   led_device_type = <0>;
@@ -11955,9 +11957,9 @@ samsung,tmu_sensor_type = <0x0>;
   br_ratio_b_low_pg = <25>;
  };
 };
-# 17 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/ccic-s2mm005_01.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/ccic-s2mm005_01.dtsi"
+# 17 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/ccic-s2mm005_01.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/ccic-s2mm005_01.dtsi"
 / {
  pinctrl@164B0000 {
   usbpd_irq: usbpd-irq {
@@ -12028,9 +12030,9 @@ samsung,tmu_sensor_type = <0x0>;
   };
  };
 };
-# 18 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dreamlte_mst_00.dtsi" 1
-# 13 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dreamlte_mst_00.dtsi"
+# 18 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dreamlte_mst_00.dtsi" 1
+# 13 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dreamlte_mst_00.dtsi"
 / {
  sec-mst{
   compatible = "sec-mst";
@@ -12064,11 +12066,11 @@ samsung,tmu_sensor_type = <0x0>;
   };
  };
 };
-# 19 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_gpio_06.dtsi" 1
-# 12 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_gpio_06.dtsi"
-# 1 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos_gpio_config_macros.dtsi" 1
-# 13 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_gpio_06.dtsi" 2
+# 19 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_gpio_06.dtsi" 1
+# 12 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_gpio_06.dtsi"
+# 1 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos_gpio_config_macros.dtsi" 1
+# 13 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_gpio_06.dtsi" 2
 
 
 
@@ -12335,7 +12337,7 @@ samsung,tmu_sensor_type = <0x0>;
   gpb0-2 { samsung,pins = "gpb0-2"; samsung,pin-con-pdn = <2>; samsung,pin-pud-pdn = <1>; };
  };
 };
-# 20 "/root/Desktop/kernel_s8/BatKernel-TW70-stock/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
+# 20 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895-dream2lte_eur_open_06.dts" 2
 
 / {
  model = "Samsung SM-G955F rev00 board based on EXYNOS8895";
