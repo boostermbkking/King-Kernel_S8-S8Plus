@@ -2533,7 +2533,6 @@
    cal-id = <(0x0B040003)>;
    dm-type = <0>;
 
-   max-freq = <1794000>;
    min-freq = <455000>;
 
 
@@ -2579,7 +2578,6 @@
    cal-id = <(0x0B040002)>;
    dm-type = <1>;
 
-   max-freq = <2574000>;
    min-freq = <741000>;
 
 
@@ -5905,7 +5903,7 @@
 
   iommus = <&sysmmu_score0>;
  };
-# 3855 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi"
+# 3853 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi"
  iommu-domain_iva_score {
   compatible = "samsung,exynos-iommu-bus";
   #dma-address-cells = <1>;
@@ -6540,7 +6538,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4474 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4472 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  tmuctrl_1: APOLLO@10080000 {
@@ -6564,7 +6562,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4485 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4483 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  tmuctrl_2: GPU@10084000 {
@@ -6597,7 +6595,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4505 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4503 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  tmuctrl_3: ISP@10084000 {
@@ -6621,7 +6619,7 @@ samsung,tmu_default_temp_offset = <50>;
 samsung,tmu_default_trip_temp = <115>;
 samsung,tmu_cal_type = <0>;
 samsung,tmu_sensor_type = <0x0>;
-# 4516 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
+# 4514 "/root/Desktop/kernel_s8/King-Kernel_S8-S8Plus/arch/arm64/boot/dts/exynos/exynos8895.dtsi" 2
  };
 
  thermal-zones {
